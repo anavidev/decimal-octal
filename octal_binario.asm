@@ -1,8 +1,8 @@
 	JMP start
-table: DB "000001010011100101110111"	;
+table: DB "000001010011100101110111"
 
 start:
-	MOV C, 0o2	; variavel de entrada (3 na base octal)
+	MOV C, 0o2	; variavel de entrada (2 na base octal)
 
 	MOV A, C	; passar valor de C para A para fazer a formula Eo + 3 * dig
 	MUL 3
